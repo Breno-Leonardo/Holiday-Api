@@ -8,16 +8,23 @@ A chave primaria da tabela holiday é uma chave composta utilizando os campos de
 
 
 
-Caso a procura por um feriado municipal em uma data não tenha retorno, haverá a procura por um feriado do estado do município naquele estado, por exemplo, se busca por um feriado na data "07-07" e município "2111300" não retornar um feriado, mas for feriado no estado "21" a busca retornará o feriado naquele estado. O retorno de uma busca segue o padrão da imagem abaixo:
+Caso a procura por um feriado municipal em uma data não tenha retorno, haverá a procura por um feriado do estado do município naquele estado, por exemplo, se busca por um feriado na data "07-07" e município "2111300" não retornar um feriado, mas for feriado no estado "21" a busca retornará o feriado naquele estado. O retorno de uma busca segue o padrão das imagens abaixo:
 
 ```
 http://localhost:3000/feriados/2111300/2020-01-07
 ```
 
+Feriados estaduais e municipais:
 
 ![image](https://github.com/Breno-Leonardo/Holiday-Api/assets/58619307/14028f94-6bd2-4868-9119-0172e18261ba)
 
-Os Feriados nacionais foram cadastrados com o código 0 para denominar todo o pais.
+Os Feriados nacionais foram cadastrados com o código 0 para denominar todo o pais. Feriados nacionais:
+
+![image](https://github.com/Breno-Leonardo/Holiday-Api/assets/58619307/69f24ca0-e116-47fb-a750-0a5d54674638)
+
+Feriados móveis:
+
+![image](https://github.com/Breno-Leonardo/Holiday-Api/assets/58619307/4b817846-0fcc-4da7-acef-1a04669b1145)
 
 ## Como rodar
 
